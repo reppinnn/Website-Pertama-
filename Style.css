@@ -1,0 +1,66 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F0E6; 
+}
+
+
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    padding: 10px 20px;
+    margin: 10px auto 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar a {
+    display: block;
+    padding: 8px 16px;
+    border-radius: 30px;
+    color: green;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.navbar div:first-child a {
+    background-color: green;
+    color: white;
+}
+
+.navbar div:not(:first-child) a:hover {
+    background-color: rgba(0, 128, 0, 0.2);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center;
+}
+
+.herosection {
+    margin-top: 80px;   
+    color: darkgreen;
+}
+
+.herosection h1 {
+    margin: 0;
+    white-space: nowrap;
+    font-size: clamp(40px, 9vw, 100px);  
+}
+.Miaw {
+    width: 538px;
+    max-width: 90%;   
+    height: auto;
+    margin-top: 0px; 
+}
